@@ -1,0 +1,12 @@
+A list of Web sites, books, forums, blog posts, github repositories etc that you referred to or used in this submission (Add N/A if you did not use such resources).
+http://stackoverflow.com/
+https://piazza.com/
+https://github.com
+http://www.w3schools.com/
+http://www.hypergurl.com/csstutorial8.html
+http://teamtreehouse.com/
+http://www.codecademy.com/
+http://www.jslint.com/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+http://www.javascriptsource.com/
+http://www.javascriptkit.com/

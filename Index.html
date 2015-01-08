@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Front-End Web Developer resume</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jquery.js"></script>
+  <script src="js/helper.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="header" class="jumbotron row">
+      <ul id="topContacts" class='flex-box'></ul>
+    </div>
+    <div id="workExperience">
+      <h2>Work Experience</h2>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+    </div>
+    <div id="education">
+      <h2>Education</h2>
+    </div>
+    <div id="mapDiv">
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="letsConnect" class='dark-gray'>
+      <h2 class='orange text-center'><em>Let's Connect</em></h2>
+      <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div>
+  </div>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+  <script>
+    if(document.getElementsByClassName("work-entry").length === 0) {
+      document.getElementById("workExperience").style.display = "none";
+    }
+    if(document.getElementsByClassName("project-entry").length === 0) {
+      document.getElementById("projects").style.display = "none";
+    }
+    if(document.getElementsByClassName("education-entry").length === 0) {
+      document.getElementById("education").style.display = "none";
+    }
+    if(document.getElementById("map") == undefined) {
+      document.getElementById("mapDiv").style.display = "none";
+    }
+  </script>
+</body>

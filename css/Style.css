@@ -1,0 +1,49 @@
+a {
+  color: #1199C3;
+  text-decoration: none;
+  display: block;
+}
+.orange {
+  background-color: #b15315;
+}
+.orange-text {
+  color: #b15315;
+}
+.dark-gray {
+  background-color: #ffffff;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+}
+img {
+  padding: 10px;
+}
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #b15315;
+}
+#mapDiv {
+  height: 400px;
+  padding-bottom: 5%;
+}
+#footerContacts {
+  background-color: #4e5d6c;
+}
+#letsConnect > h2 {
+  margin-bottom: 0px;
+}
